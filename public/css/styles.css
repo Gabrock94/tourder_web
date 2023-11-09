@@ -11160,3 +11160,16 @@ footer a:hover, footer a:active, footer a:focus {
     max-width: 17rem;
   }
 }
+
+
+.completed, .planned{
+  list-style: none;
+}
+
+.completed li:before {
+  content: '✓';
+}
+
+.planned li:before {
+  content: "\2610";
+}
